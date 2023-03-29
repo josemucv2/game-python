@@ -33,7 +33,7 @@ rounds = 3
 A continuación, se inicia un bucle for que ejecutará el número de rondas especificado:
 
 ```python
-for i in range(1, num_rounds+1):
+for i in range(1, rounds+1):
 ```
 
 Dentro del bucle for, se le pide al usuario que ingrese su opción y se verifica si es una opción válida:
