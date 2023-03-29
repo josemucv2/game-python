@@ -10,8 +10,8 @@ Este juego está implementado en Python y se necesita tener Python instalado en 
 ## Instrucciones de uso
 
 1. Clonar o descargar el repositorio en su computadora.
-2. Abrir la terminal y navegar hasta la carpeta donde se encuentra el archivo "piedra_papel_tijera.py".
-3. Ejecutar el siguiente comando: `python piedra_papel_tijera.py`.
+2. Abrir la terminal y navegar hasta la carpeta donde se encuentra el archivo "index.py".
+3. Ejecutar el siguiente comando: `python index.py`.
 4. Se le pedirá que ingrese su opción (piedra, papel o tijera) para cada ronda. Ingrese su opción y presione Enter.
 5. Después de tres rondas, el juego mostrará quién ganó (el usuario, el ordenador o si fue un empate).
 
