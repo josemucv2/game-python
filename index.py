@@ -2,8 +2,7 @@
 
 from choseOptions import chose_options
 from checkRules import checkRules
-
-
+from checkWins import checkWins
 options = ('piedra', 'papel', 'tijera')
 
 
@@ -17,19 +16,13 @@ def runGame():
         print(f'Rounds: {i}')
         print('Mucho Exito!!')
         print('*' * 10)
-
+        # function checking options the user and the computer
         user_options, computer_options = chose_options()
+        # validation the rules in the games
         computer_winners, user_winners = checkRules(
             user_options, computer_options, user_winners, computer_winners)
-
-    print('* ' * 10)
-    if computer_winners > user_winners:
-        print('*'*10 + ' ' + 'computador gano')
-    elif user_winners > computer_winners:
-        print('*'*10 + ' ' + 'Gano el usuario')
-    else:
-        print('El juago quedo en empate')
-        print('* ' * 10)
+        # check the winners
+        checkWins(computer_winners, user_winners)
 
 
 runGame()
