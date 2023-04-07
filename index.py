@@ -1,4 +1,4 @@
-# Realice el juego de piedra papel o tijera contra una Computdaro
+# Realice el juego de piedra papel o tijera contra una Computadora
 
 from choseOptions import chose_options
 from checkRules import checkRules
